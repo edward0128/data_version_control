@@ -1,0 +1,9 @@
+[core]
+    remote = ssh-storage
+['remote "myremote"']
+    url = ssh://root@10.16.1.5:/dvc
+['remote "ssh-storage"']
+    url = ssh://10.16.1.5:/dvc
+    user = root
+    port = 22
+    password = password
